@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities_of_santa_catarina">
+        <item>Abdon Batista</item>
+        <item>Abelardo Luz</item>
+        <item>Agronômica</item>
+        <item>Água Doce</item>
+        <item>Águas de Chapecó</item>
+        <item>Águas Frias</item>
+        <item>Alfredo Wagner</item>
+        <item>Alto Bela Vista</item>
+        <item>Anchieta</item>
+        <item>Angelina</item>
+        <item>Anita Garibaldi</item>
+        <item>Antônio Carlos</item>
+        <item>Apiúna</item>
+        <item>Arabutã</item>
+        <item>Araranguá</item>
+        <item>Armazém</item>
+        <item>Ascurra</item>
+        <item>Atalanta</item>
+        <item>Aurora</item>
+        <item>Bandeirante</item>
+        <item>Barra Bonita</item>
+        <item>Barra Velha</item>
+        <item>Bela Vista do Toldo</item>
+        <item>Belmonte</item>
+        <item>Benedito Novo</item>
+        <item>Biguaçu</item>
+        <item>Blumenau</item>
+        <item>Bocaina do Sul</item>
+        <item>Bom Jardim da Serra</item>
+        <item>Bom Jesus</item>
+        <item>Bom Retiro</item>
+        <item>Brusque</item>
+        <item>Cacador</item>
+        <item>Caçador</item>
+        <item>Camboriú</item>
+        <item>Canelinha</item>
+        <item>Capão Alto</item>
+        <item>Capinzal</item>
+        <item>Caravana</item>
+        <item>Catanduvas</item>
+        <item>Cerro Negro</item>
+        <item>Cerro Largo</item>
+        <item>Chapecó</item>
+        <item>Cláudio Manoel</item>
+        <item>Concordia</item>
+        <item>Coronel Freitas</item>
+        <item>Coronel Martins</item>
+        <item>Correia Pinto</item>
+        <item>Curitibanos</item>
+        <item>Descanso</item>
+        <item>Dionísio Cerqueira</item>
+        <item>Dona Emma</item>
+        <item>Douglas</item>
+        <item>Entre Rios</item>
+        <item>Ermo</item>
+        <item>Erval Velho</item>
+        <item>Florianópolis</item>
+        <item>Formosa do Sul</item>
+        <item>Fraiburgo</item>
+        <item>Garopaba</item>
+        <item>Garuva</item>
+        <item>Gaspar</item>
+        <item>Governador Celso Ramos</item>
+        <item>Grão Pará</item>
+        <item>Guabiruba</item>
+        <item>Guaraciaba</item>
+        <item>Guaramirim</item>
+        <item>Herval dOeste</item>
+        <item>Ibiporã</item>
+        <item>Ibirama</item>
+        <item>Içara</item>
+        <item>Ilhota</item>
+        <item>Imaruí</item>
+        <item>Imbituba</item>
+        <item>Indaial</item>
+        <item>Iomerê</item>
+        <item>Ipira</item>
+        <item>Iporã do Oeste</item>
+        <item>Iraceminha</item>
+        <item>Irani</item>
+        <item>Irati</item>
+        <item>Itá</item>
+        <item>Itajaí</item>
+        <item>Itapema</item>
+        <item>Itapiranga</item>
+        <item>Ituporanga</item>
+        <item>Jaborá</item>
+        <item>Jacinto Machado</item>
+        <item>Jaguaruna</item>
+        <item>Jaraguá do Sul</item>
+        <item>Joaçaba</item>
+        <item>Joinville</item>
+        <item>José Boiteux</item>
+        <item>Laurentino</item>
+        <item>Lages</item>
+        <item>Laguna</item>
+        <item>Lajeado Grande</item>
+        <item>Leoberto Leal</item>
+        <item>Lontras</item>
+        <item>Macieira</item>
+        <item>Maravilha</item>
+        <item>Massaranduba</item>
+        <item>Mafra</item>
+        <item>Major Gercino</item>
+        <item>Major Vieira</item>
+        <item>Maracajá</item>
+        <item>Mirim Doce</item>
+        <item>Modelo</item>
+        <item>Monte Carlo</item>
+        <item>Monte Castelo</item>
+        <item>Morro da Fumaça</item>
+        <item>Navegantes</item>
+        <item>Nova Trento</item>
+        <item>Nova Veneza</item>
+        <item>Orleans</item>
+        <item>Otacílio Costa</item>
+        <item>Paco do Lumiar</item>
+        <item>Painel</item>
+        <item>Palhoça</item>
+        <item>Palmitos</item>
+        <item>Pena</item>
+        <item>Peregrino</item>
+        <item>Peritiba</item>
+        <item>Pindotiba</item>
+        <item>Planalto Alegre</item>
+        <item>Pomerode</item>
+        <item>Porto Belo</item>
+        <item>Porto União</item>
+        <item>Praia Grande</item>
+        <item>Presidente Getúlio</item>
+        <item>Presidente Nereu</item>
+        <item>Quilombo</item>
+        <item>Rio do Campo</item>
+        <item>Rio do Sul</item>
+        <item>Rio dos Cedros</item>
+        <item>Rio Negrinho</item>
+        <item>Riqueza</item>
+        <item>Rosário do Sul</item>
+        <item>Salto Veloso</item>
+        <item>Salto do Lontra</item>
+        <item>Santa Cecília</item>
+        <item>Santa Helena</item>
+        <item>Santa Rosa de Lima</item>
+        <item>Santa Terezinha</item>
+        <item>Santo Amaro da Imperatriz</item>
+        <item>Santo André da União</item>
+        <item>São Bento do Sul</item>
+        <item>São Bonifácio</item>
+        <item>São Carlos</item>
+        <item>São Francisco do Sul</item>
+        <item>São João do Itaperiú</item>
+        <item>São José</item>
+        <item>São João Batista</item>
+        <item>São Miguel do Oeste</item>
+        <item>São Pedro de Alcântara</item>
+        <item>Sapiranga</item>
+        <item>Schroeder</item>
+        <item>Sec. de Educação</item>
+        <item>Serra Alta</item>
+        <item>Silvano</item>
+        <item>Taió</item>
+        <item>Tangará</item>
+        <item>Tijucas</item>
+        <item>Timbé do Sul</item>
+        <item>Tres Barras</item>
+        <item>Três Rios do Sul</item>
+        <item>Urussanga</item>
+        <item>Vargeão</item>
+        <item>Vidal Ramos</item>
+        <item>Videira</item>
+        <item>Witmarsum</item>
+        <item>Xaxim</item>
+        <item>Zortéa</item>
+    </string-array>
+</resources>

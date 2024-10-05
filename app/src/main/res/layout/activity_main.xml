@@ -10,26 +10,30 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Treasure Hunt"
+        android:text="TreasureHunt SC"
         android:textSize="24sp"
         android:layout_gravity="center"
         android:paddingBottom="16dp" />
 
-    <!-- Primeiro Campo de Entrada -->
-    <EditText
-        android:id="@+id/etField1"
+    <Spinner
+        android:id="@+id/spinnerCities"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!-- Botão para Buscar a Localização -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Localização"
-        android:inputType="text" />
+        android:text="Buscar Localização"
+        android:layout_marginTop="8dp" />
+    <!-- Fragmento do Google Maps na parte inferior da tela -->
 
-    <!-- Segundo Campo de Entrada -->
-    <EditText
-        android:id="@+id/etField2"
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Raio (KM)"
-        android:inputType="text"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_marginTop="16dp" />
 
 </LinearLayout>
