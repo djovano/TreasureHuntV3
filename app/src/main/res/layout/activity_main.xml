@@ -5,7 +5,6 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Título -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
@@ -19,14 +18,12 @@
         android:id="@+id/spinnerCities"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <!-- Botão para Buscar a Localização -->
     <Button
         android:id="@+id/btnSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Buscar Localização"
         android:layout_marginTop="8dp" />
-    <!-- Fragmento do Google Maps na parte inferior da tela -->
 
     <fragment
         android:id="@+id/mapFragment"

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             mapFragment.getMapAsync(this);
         }
 
-        // Inicializa o Spinner (ComboBox) com as cidades de Santa Catarina
+        // Inicializa o combo com as cidades de Santa Catarina
         Spinner spinnerCities = findViewById(R.id.spinnerCities);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.cities_of_santa_catarina, android.R.layout.simple_spinner_item);
@@ -103,7 +103,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         cityCoordinates.put("Cerro Negro", new LatLng(-27.7946, -50.8679));
         cityCoordinates.put("Chapadão do Lageado", new LatLng(-27.5903, -49.5534));
         cityCoordinates.put("Chapecó", new LatLng(-27.1004, -52.615));
-        // Adicione outras cidades conforme necessário
 
         spinnerCities.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -112,16 +111,14 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 LatLng cityCenter = cityCoordinates.get(selectedCity);
                 if (cityCenter != null && googleMap != null) {
                     LatLng randomLocation = getRandomLocation(cityCenter, 10.0);
-                    googleMap.clear(); // Limpar marcadores anteriores
+                    googleMap.clear();
                     googleMap.addMarker(new MarkerOptions().position(randomLocation).title("Localização Aleatória"));
                     googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(randomLocation, 12));
                 }
             }
 
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                // Nenhuma ação necessária
-            }
+            public void onNothingSelected(AdapterView<?> parent) {}
         });
     }
 
@@ -134,7 +131,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private LatLng getRandomLocation(LatLng center, double radiusInKm) {
         Random random = new Random();
 
-        // Converter raio para graus
         double radiusInDegrees = radiusInKm / 111.32;
 
         double u = random.nextDouble(); // Valor aleatório entre 0 e 1
@@ -144,7 +140,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         double x = w * Math.cos(t);
         double y = w * Math.sin(t);
 
-        // Ajustar a posição com base na latitude e longitude do centro
         double newLat = center.latitude + x;
         double newLng = center.longitude + y / Math.cos(Math.toRadians(center.latitude));
 
